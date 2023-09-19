@@ -1,0 +1,2 @@
+nasm -f elf miprograma.asm
+gcc -m32 -o miprograma driver.c miprograma.o asm_io.o
